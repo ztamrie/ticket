@@ -1,0 +1,258 @@
+/*
+Template Design by TheWebhub.com
+http://www.thewebhub.com
+Released for free under a Creative Commons Attribution-Share Alike 3.0 Philippines
+*/
+
+/** Common Styles */
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #FF0000;
+}
+ul li:hover ul {display: block;
+color:#000000}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+  color:#000000
+}
+ul li ul li { 
+  background: #555; 
+  display: block;
+  color:#000000
+}
+ul li ul li a {display:block !important; color:#000000} 
+ul li ul li:hover {background: #666; color:#000000}
+	  a{text-decoration:none;
+	  }
+
+body {
+
+    height:620px
+	margin:30px 0 20px 0;
+	padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+        //background:#0099FF;
+                          
+	background-color:#2A4E6C;
+	text-align: justify;
+	line-height: 25px;
+	font-size: 14px;
+	color: #000000;
+       
+}
+
+h1, h2, h3 {
+	padding: 0;
+	margin: 0;
+	color: #005880;
+}
+
+p, ul, ol {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin: 0px;
+	padding: 0;
+}
+
+a {
+	color: #005880;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #D7D7BD;
+}
+
+/** Style for header starts here */
+
+#header {
+	width: 850px;
+	height: 120px;
+	margin: 0px 0px;
+	background: url(images/d.JPG);
+        background-repeat: no-repeat;
+        padding: 0px;
+        border-radius: 20px 20px 20px 20px;
+}
+#header h1, #header h2 {
+	margin: 0px;
+	padding: 0;
+	font-weight: normal;
+	color: #990000;
+}
+
+#header h1 {
+	padding: 235px 0px 10px 30px;
+	font-size: 4em;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#header h2 {
+	margin-top: -8px;
+	padding: 0px 0px 0px 92px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/** Style for menu starts here */
+
+#menu {
+	width: 850px;
+	height: 50px;
+	margin: 0px auto;
+	background:#3366CC;
+        border-radius: 10px 10px 10px 10px;
+	
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0 0 0 20px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 14px 30px 10px 12px;
+	text-decoration: none;
+	color: #FFFFFF;
+	size:14px;
+	font-size: 20px;
+        font-family: "Times New Roman", Times, serif;
+}
+
+#menu a:hover {
+color:#FF0000
+
+ 
+}
+
+
+/** Style for wrapper starts here */
+
+#wrapper {
+	width: 850px;
+	size:14px;
+	background:white;
+	padding: 20px;
+	height: 750px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+        border-radius: 30px 30px 30px 30px;
+}
+
+/** Style for content starts here */
+
+#content {
+	width: 850px;
+	margin: 0px auto;
+	padding-top: 25px;
+}
+
+#content h2 {
+	
+	font-size: 1.6em;
+	font-weight: normal;
+	border-bottom: 1px #CCCCCC dashed;
+}
+
+#content p {
+}
+
+#left {
+	float: left;
+	width: 420px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+        border: 2px;
+        border-radius: 8px 8px 8px 8px
+}
+
+#left ul {
+	margin: 0 3em;
+	padding: 0;
+	list-style: none;
+}
+
+#left li {
+	margin-bottom: 10px;
+	padding-left: 10px;
+	line-height: 17px;
+}
+
+#left .post {
+	margin-bottom: 20px;
+}
+
+#right {
+	float: right;
+	width: 360px;
+	margin-bottom: 20px;
+	padding-right: 20px;
+}
+#help h4 pre {
+    font-size: 15px;
+	
+	margin: 0px;
+	padding-left: 20px;
+	align: center;
+}
+
+#right ul {
+	margin: 15px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+#right li {
+	padding-left: 10px;
+}
+#right a:hover {
+color:#FF0000
+
+ 
+}
+
+/** Style for footer starts here */
+
+#footer {
+	clear: both;
+	width: 890px;
+	height: 30px;
+	margin: 0px auto;
+	padding-top: 13px;
+	
+	font-size: 15px;
+	background-color: black;
+	text-align:center;
+        color: white;
+       
+}
+
+#footer .copyright {
+  font-size: 15px;
+	
+	margin: 0px;
+	padding-left: 20px;
+	align: center;
+}
+
+#footer a {
+	color: #E5E5CC;
+}

@@ -1,0 +1,26 @@
+﻿To reserve a ticket for a trip in Selam bus line share company ticket reservation system expand 
+the “Ticket” link which is found on the top navigation and click the link “Book a Ticket” or on 
+the side navigation and follow the procedure below. 
+1)  From the departure drop down menu select a departure city. 
+2)  From the destination drop down menu select a destination city. 
+3)  In the field that says “date” insert the date of the trip that you want to book for. 
+4)  In the “first name” field write your first name. 
+5)  In the “last name” field write your last name. 
+6)  Select your sex from the “sex” drop down menu. 
+7)  Insert your phone on the phone field. 
+8)  If you have an email, write it in the email field. This field is optional so if you don’t have 
+one please leave this field blank. 
+9)  In the contact information region insert the name of  your contact that will be called in 
+case of emergency in the “first name” field 
+10)  In the “last name” field insert the last name of your contact person. 
+11)  Select the country of your contact person from the country drop down menu. 
+12)  Insert the city where the contact person lives 
+13)  Write the phone number of the contact person. 
+14)  Select the sex of your contact from the “sex” drop down menu. 
+15)  If you have completed all of the above fields or the fields which are not optional click the 
+button “Submit”. 
+16)  If the form has some errors it will be redisplayed  with the error displayed under the field 
+which has generated it in red colors. 
+17)  If the data you have inserted is accurate the you will be redirected to another page and a 
+confirmation number and a ticket number will be displayed to you for payment and other 
+things. Please print these numbers.
